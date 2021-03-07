@@ -1,13 +1,12 @@
-// app.js
-const checkProduct = require('./utils/checkProducts');
 const express = require('express');
+const notify = require('./utils/notify');
+const notifer = require('node-notifier');
 const app = express();
 
 // Create an instance of the http server to handle HTTP requests
 app.get('/', function(req, res){
-    checkProduct.checkProduct();
+    notify.notify();
  });
 
-// Start the server on port 3000
-app.listen(3000, '127.0.0.1');
-console.log('Node server running on port 3000');
+// Start the server on port 8080
+app.listen(8080, '127.0.0.1');
