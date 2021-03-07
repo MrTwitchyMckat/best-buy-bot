@@ -4,7 +4,7 @@ const notifer = require('node-notifier');
 const notify = async () => {
     const checkStatus = async () => {
         const buttonText = await html.parsedHtml();
-        if(buttonText == 'Sold Out') {
+        if(buttonText !== 'Sold Out') {
             console.log('here');
             try {
                 notifer.notify({
