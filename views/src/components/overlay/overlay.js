@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './overlay.css';
+import './overlay.scss';
 
 class Overlay extends Component {
   render() {
-    if (this.props.cardsLoaded == false) {
+    if (this.props.cardsLoaded === false) {
       return (
         <div className="overlay">
           <p>LOADING CARDS</p>
-          <div class="lds-dual-ring"></div>
+          <div className="lds-dual-ring"></div>
         </div>
       )
     } else {
