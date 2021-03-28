@@ -17,7 +17,7 @@ class App extends Component {
       const data = await response.json();
       this.setState({cardsLoaded: true, cards : data});
       console.log(this.state.cards);
-    }, 3000);
+    }, 5000);
   }
   componentDidUpdate(prevState) {
     if (this.state.cards !== prevState.cards) {
@@ -45,7 +45,7 @@ class App extends Component {
         </div>
         <Overlay cardsLoaded={this.state.cardsLoaded}/>
         {this.state.cards.map((item, id) => (
-          <Card card={item}/>
+          <Card card={item} id={id}/>
         ))}
       </div>
     )

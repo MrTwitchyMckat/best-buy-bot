@@ -2,7 +2,7 @@
   width: 100%;
   background-color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 20px 0px;
   transition: all .2s ease;
   &:hover {
     transform: translateY(-5px);
@@ -18,6 +18,12 @@
     font-weight: 400;
     text-transform: none;
   }
+  .card__link {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
   &:hover {
     transform: none;
     box-shadow: none;
@@ -27,6 +33,12 @@
 .in-stock {
   background-color: #1edc59;
   color: white !important;
+  .card__link {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .card__link {
@@ -35,6 +47,10 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  color: #6b6b6b;
+  &:hover {
+    color: rebeccapurple;
+  }
 }
 
 .card__title {
@@ -45,6 +61,7 @@
   text-transform: uppercase;
   font-weight: 600;
   padding-right: 15px;
+  padding-left: 15px;
   border-right: 1px solid lightgray;
 }
 
@@ -55,6 +72,9 @@
   flex-basis: 15%;
   padding-right: 15px;
   border-right: 1px solid lightgray;
+  img {
+    width: 60px;
+  }
 }
 
 .card__stock {

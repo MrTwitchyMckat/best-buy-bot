@@ -22,11 +22,17 @@ class Card extends Component {
       return newegg;
     }
   }
-  render() {
-    console.log(this.props.card)
+  mapStock(stock) {
+    if(stock === true) {
+      return "In Stock"
+    } else {
+      return "Out of Stock"
+    }
+  }
+  render() { 
     return (
-      <div className="card">
-        <div className="card__link" href={this.props.card.instock}>
+      <div className={this.props.card.instock ? 'card in-stock' : 'card'}>
+        <a className="card__link" target="_blank" rel="norefferer nofollow" href={this.props.card.url}>
           <div className="card__title">
            {this.props.card.name}
           </div>
@@ -34,12 +40,12 @@ class Card extends Component {
             <img src={this.mapLogos(this.props.card.vendor)} />
           </div>
           <div className="card__stock">
-            {this.props.card.instock}
+            {this.mapStock(this.props.card.instock)}
           </div>
           <div className="card__updated">
             {this.props.card.updated}
           </div>
-        </div>
+        </a>
       </div>
     )
   }
