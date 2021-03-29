@@ -13,7 +13,7 @@ class App extends Component {
   }
   async componentDidMount() {
     setInterval(async () => {
-      const response = await fetch('/data/cards/');
+      const response = await fetch('/data/cards.json');
       const data = await response.json();
       this.setState({cardsLoaded: true, cards : data});
       console.log(this.state.cards);
@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="card header">
-          <div className="card__link" href="https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440">
+          <div className="card__link">
             <div className="card__title">
             Card Name
             </div>

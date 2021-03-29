@@ -2,51 +2,71 @@
   {
     "name" : "RTX 3080",
     "url" : "https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440",
-    "vendor" : "bestbuy"
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "EVGA RTX 3080",
     "url" : "https://www.bestbuy.com/site/evga-geforce-rtx-3080-xc3-ultra-gaming-10gb-gddr6-pci-express-4-0-graphics-card/6432400.p?skuId=6432400",
-    "vendor" : "bestbuy"
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "EVGA - GeForce RTX 3080 XC3 BLACK GAMING 10GB",
     "url" : "https://www.bestbuy.com/site/evga-geforce-rtx-3080-xc3-black-gaming-10gb-gddr6-pci-express-4-0-graphics-card/6432399.p?skuId=6432399",
-    "vendor" : "bestbuy"
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "PNY GeForce RTX 3080 10GB",
     "url" : "https://www.bestbuy.com/site/pny-geforce-rtx-3080-10gb-xlr8-gaming-epic-x-rgb-triple-fan-graphics-card/6432658.p?skuId=6432658",
-    "vendor" : "bestbuy"
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "MSI - AMD Radeon RX 6800 XT 16G",
     "url" : "https://www.bestbuy.com/site/msi-amd-radeon-rx-6800-xt-16g-16gb-gddr6-pci-express-4-0-graphics-card-black/6440913.p?skuId=6440913",
-    "vendor" : "bestbuy"
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "XFX - AMD Radeon™ RX 6800XT 16GB",
     "url" : "https://www.bestbuy.com/site/xfx-amd-radeon-rx-6800xt-16gb-gddr6-pci-express-4-0-gaming-graphics-card-black/6441226.p?skuId=6441226",
-    "vendor" : "bestbuy"
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "MSI GeForce RTX 3080 DirectX 12 RTX 3080",
     "url" : "https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g/p/N82E16814137600?cm_mmc=vendor-nvidia&u1=s1616288650736ctfja52439",
-    "vendor" : "newegg"
+    "vendor" : "newegg",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "EVGA GeForce RTX 3080 XC3 BLACK GAMING Video Card",
     "url" : "https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3881-kr/p/N82E16814487522?cm_mmc=vendor-nvidia&u1=s1616288650736ctfja52439",
-    "vendor" : "newegg"
+    "vendor" : "newegg",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "AMD Radeon™ RX 6800 XT Graphics",
     "url" : "https://www.amd.com/en/direct-buy/5458372800/us",
-    "vendor" : "amd"
+    "vendor" : "amd",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   },
   {
     "name" : "AMD Radeon™ RX 6800 Graphics",
     "url" : "https://www.amd.com/en/direct-buy/5458373400/us",
-    "vendor" : "amd"
+    "vendor" : "amd",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
   }
 ]
