@@ -42,6 +42,20 @@
     "updated" : "Loading..."
   },
   {
+    "name" : "RTX 3070",
+    "url" : "https://www.bestbuy.com/site/nvidia-geforce-rtx-3070-8gb-gddr6-pci-express-4-0-graphics-card-dark-platinum-and-black/6429442.p?skuId=6429442",
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
+  },
+  {
+    "name" : "EVGA - GeForce RTX 3070",
+    "url" : "https://www.bestbuy.com/site/evga-geforce-rtx-3070-xc3-ultra-gaming-8gb-gddr6-pci-express-4-0-graphics-card/6439299.p?skuId=6439299",
+    "vendor" : "bestbuy",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
+  },
+  {
     "name" : "MSI GeForce RTX 3080 DirectX 12 RTX 3080",
     "url" : "https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g/p/N82E16814137600?cm_mmc=vendor-nvidia&u1=s1616288650736ctfja52439",
     "vendor" : "newegg",
@@ -51,6 +65,20 @@
   {
     "name" : "EVGA GeForce RTX 3080 XC3 BLACK GAMING Video Card",
     "url" : "https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3881-kr/p/N82E16814487522?cm_mmc=vendor-nvidia&u1=s1616288650736ctfja52439",
+    "vendor" : "newegg",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
+  },
+  {
+    "name" : "GIGABYTE GeForce RTX 3070 EAGLE 8GB",
+    "url" : "https://www.newegg.com/gigabyte-geforce-rtx-3070-gv-n3070eagle-8gd/p/N82E16814932344?cm_mmc=vendor-nvidia&u1=s16159504012306nyna52439",
+    "vendor" : "newegg",
+    "instock" : "Loading...",
+    "updated" : "Loading..."
+  },
+  {
+    "name" : "ASUS Dual GeForce RTX 3070",
+    "url" : "https://www.newegg.com/asus-geforce-rtx-3070-dual-rtx3070-8g/p/N82E16814126460?cm_mmc=vendor-nvidia&u1=s16159504012306nyna52439",
     "vendor" : "newegg",
     "instock" : "Loading...",
     "updated" : "Loading..."
